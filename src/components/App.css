@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  padding: 32px;
+  background-color: #f4f0ec;
+  margin-bottom: 24px;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.App-header {
+  background-color: #36454f;
+  height:20px;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-family: 'Amaranth', sans-serif;
+}
+
+input, select, button {
+  height: 2rem;
+  width: 220px;
+  margin: 8px 8px 8px 0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1rem;
+}
+
+
+button {
+  color: #36454f;
+  background-color: white;
+  border: 1px solid #36454f;
+}
+
+button:disabled {
+  color: darkgray;
+  border-color: darkgray;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.team {
+  font-size: 1.5rem;
+}
