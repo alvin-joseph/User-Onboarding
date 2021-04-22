@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 2px rgb(128, 127, 127);
+  padding: 32px;
+  background-color: #fffff0;
+  margin-bottom: 24px;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.App-header {
+  box-shadow: 0px 1px 6px 2px rgb(128, 127, 127);
+  background-color: #FC600A;
+  height:20px;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #347B98;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-family: 'Amaranth', sans-serif;
+}
+
+input, select, button {
+  height: 2rem;
+  width: 220px;
+  margin: 8px 8px 8px 0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1rem;
+}
+
+
+button {
+  color: #36454f;
+  background-color: white;
+  border: 1px solid #36454f;
+}
+
+button:disabled {
+  color: darkgray;
+  border-color: darkgray;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.team {
+  font-size: 1.5rem;
+}
+
+.errors {
+  margin: 8px;
+  font-size: 1em;
+  color: red;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  padding: 0 40px 0 40px;
+}
+
+.form {
+  background-color: #D4EDF7;
+}
+
+.team {
+  background-color: #D4EDF7;
+}
