@@ -4,30 +4,31 @@
 
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-top: 2%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
   border: 1px solid rgb(210, 210, 210);
   border-radius: 4px;
-  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  box-shadow: 0px 1px 6px 2px rgb(128, 127, 127);
   padding: 32px;
-  background-color: #f4f0ec;
+  background-color: #fffff0;
   margin-bottom: 24px;
   font-family: 'Amaranth', sans-serif;
 }
 
 .App-header {
-  background-color: #36454f;
+  box-shadow: 0px 1px 6px 2px rgb(128, 127, 127);
+  background-color: #FC600A;
   height:20px;
   display: flex;
   flex-direction: row;
   align-items:flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #347B98;
   text-align: center;
   padding-bottom: 7%;
 }
@@ -74,4 +75,23 @@ button:hover{
 
 .team {
   font-size: 1.5rem;
+}
+
+.errors {
+  margin: 8px;
+  font-size: 1em;
+  color: red;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  padding: 0 40px 0 40px;
+}
+
+.form {
+  background-color: #D4EDF7;
+}
+
+.team {
+  background-color: #D4EDF7;
 }

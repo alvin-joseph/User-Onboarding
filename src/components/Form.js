@@ -19,7 +19,7 @@ function Form (props) {
             <div className='form-group inputs'>
                 <div className='errors'>
                     {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}
-                    <div>{errors.name}</div>
+                    {errors.name.length > 0 ? <div>{errors.name}</div> : null}
                     <div>{errors.role}</div>
                     <div>{errors.email}</div>
                     <div>{errors.password}</div>
@@ -29,7 +29,7 @@ function Form (props) {
                 <label>Name&nbsp;
                     <input 
                     type="text"
-                    value={values.name}
+                    value={values.name.charAt(0).toUpperCase() + values.name.slice(1)}
                     onChange={onChange}
                     name="name"
                     placeholder="insert name here.."
